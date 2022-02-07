@@ -1,0 +1,97 @@
+html, body { margin: 0;
+             padding: 0;}
+.mother {max-width: 1014px;
+         margin: 0 auto;
+        height: 700px;}
+.Header {display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 100px;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        border-bottom: 1px solid lightgrey;
+        background-color: #FAFAFA;
+        opacity: 0.9;}
+.menuItem {text-decoration: none;
+           color: inherit;
+            margin-left: 20px;
+            font-size: 16px;
+            }
+.menuItem:hover {border-bottom-style: solid ;
+                border-bottom-width: 2px;}
+.titleHeader {margin-bottom: 20px;
+              font-size: 33px;}
+
+.paragraph {margin-bottom: 20px;}
+
+
+.logoContainer {width: 50px;
+                height: 50px;}
+.Logo {width: 100%;}
+
+.Container {display: flex;
+            flex-wrap: wrap;}
+
+            
+.left {display: inline-block;
+       width: 48%;}
+.inner {width: 50%;}
+.blockElement {display: block;
+              margin-top: 10px;
+              margin-bottom: 10px;
+              background-color:#F6F6F6;
+              border:none;
+              border-radius: 15px;
+              height: 30px;
+              width:200px;
+              outline: none;
+              padding-left: 15px;
+              padding-right: 15px;
+              font-size: 15px;}
+.myanmar {background-color: royalblue;
+          border: none;
+          border-radius: 24px;
+           font-size: 16px;
+          color: white;
+          padding: 2px 20px 0px;
+          height: 40px;
+          width: 100px;}
+.inputSpan {margin-bottom: 20px;}
+.password {margin-bottom: 20px;}
+
+.microsoftImg {width: 60%;}
+.appStore {width: 60%;}
+
+.right {display: inline-block;
+        width: 48%;}
+
+.rightImg {width: 130%;}
+.Footer {text-align: center;
+         font-size: 50px;
+         margin-top: 130px;
+        padding: 50px;
+        background-color: #FAFAFA;}
+
+.mobileContainer {display: none;}
+@media(max-width:800px){
+       .menuContainer{display: none;}
+
+       .mobileContainer{display: block;}
+       .left{width:100%;
+             margin-bottom: 50px;}
+       .right{width: 100%;
+              overflow: hidden;
+              text-align: center;}
+       .inner{margin: 0 auto;
+             width: 65%;}
+       .rightImg{margin: 0 -50%;}
+}
+@media(max-width:400px){
+        .inner{width:95%}
+        .footer{margin-top: 30px;
+                padding: 10px;
+                font-size: 20px;}
+}
+
+
