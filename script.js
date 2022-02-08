@@ -44,4 +44,7 @@ case 'red': console.log('This is red color'); break;
 case 'royalBlue': console.log('This is royalBlue'); break;
 default: console.log("I can't guess anymore"); 
 }
-
+let i=0;
+do{
+  console.log("this is the correct number" + i,i++)
+}while(i <100);
