@@ -48,3 +48,4 @@ let i=0;
 do{
   console.log("this is the correct number" + i,i++)
 }while(i <100);
+var increament = [1,2,3,4,5,6,7,8,9,0,]
